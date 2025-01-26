@@ -1,0 +1,33 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### Minimal - Long ### //
+
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 6,
+"fixed-center": true,
+"ipc": true,
+
+"modules-left": [ 
+    "custom/menu",
+	"hyprland/workspaces",
+    "battery",
+    "cpu",
+    "memory",
+	],
+
+"modules-center": [
+	"hyprland/window",
+	],
+"modules-right": [
+    "wlr/taskbar",
+	"tray",
+    "clock#6",
+	],
+
+}
